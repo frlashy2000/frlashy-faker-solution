@@ -12,6 +12,10 @@ const { mapResponse } = require('./utils')
  * @returns {Promise<Array<Object>>} - A promise that resolves to an array of generated fake data objects.
  * @throws {Error} - Throws an error if failed to generate faker data.
  */
+
+// in this section we generate your faker data.
+console.log('test console first.')
+
 async function generate(params = {}) {
   let q = { gender: '', results: '' }
 
